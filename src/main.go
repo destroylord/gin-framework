@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/gin-gonic/gin"
 )
 
@@ -18,8 +16,6 @@ func PostHome(c *gin.Context) {
 }
 
 func main() {
-
-	fmt.Println("Hello World")
 
 	r := gin.Default()
 	r.GET("/", Home)
